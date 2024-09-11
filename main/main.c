@@ -18,8 +18,9 @@ static const int RX_BUF_SIZE = 1024;
 #define MQTT_ADDRESS    "mqtt://47.99.95.191"     //MQTT连接地址
 #define MQTT_PORT       1883                        //MQTT连接端口号
 #define MQTT_CLIENT     "mqttx_test"              //Client ID（设备唯一，大家最好自行改一下）
-#define MQTT_USERNAME   "MJC626"                     //MQTT用户名
-#define MQTT_PASSWORD   "Mjc200211"                  //MQTT密码
+#define MQTT_USERNAME   "####"                     //MQTT用户名
+#define MQTT_PASSWORD   
+"####"                  //MQTT密码
 
 #define MQTT_PUBLIC_TOPIC      "/test/topic1"       //测试用的,推送消息主题
 #define MQTT_SUBSCRIBE_TOPIC    "/test/topic2"      //测试用的,需要订阅的主题
